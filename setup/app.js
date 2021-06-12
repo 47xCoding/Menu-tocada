@@ -147,3 +147,5 @@ function displayMenuBtns() {
     })
   })
 }
+
+/* So, I just created a bug that I had trouble so much finding. Then after checking out code frome final I found out that the bug was about JavaScript scope. I placed event to filter items outside of function to display category buttons. This is why the functionality of categorizing wasn't working. Now after fixing it, everything is working. */
